@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E1A80CA61FD880B900AD5E11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A80CA51FD880B900AD5E11 /* AppDelegate.swift */; };
-		E1A80CA81FD880B900AD5E11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A80CA71FD880B900AD5E11 /* ViewController.swift */; };
 		E1A80CAB1FD880B900AD5E11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A80CA91FD880B900AD5E11 /* Main.storyboard */; };
 		E1A80CAD1FD880B900AD5E11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A80CAC1FD880B900AD5E11 /* Assets.xcassets */; };
 		E1A80CB01FD880B900AD5E11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A80CAE1FD880B900AD5E11 /* LaunchScreen.storyboard */; };
+		E1A80CB81FD8813800AD5E11 /* SwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A80CB71FD8813800AD5E11 /* SwitchingViewController.swift */; };
+		E1A80CBA1FD8817200AD5E11 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A80CB91FD8817200AD5E11 /* BlueViewController.swift */; };
+		E1A80CBC1FD8818800AD5E11 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A80CBB1FD8818800AD5E11 /* YellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E1A80CA21FD880B900AD5E11 /* multiview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multiview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A80CA51FD880B900AD5E11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1A80CA71FD880B900AD5E11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E1A80CAA1FD880B900AD5E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1A80CAC1FD880B900AD5E11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1A80CAF1FD880B900AD5E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1A80CB11FD880B900AD5E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1A80CB71FD8813800AD5E11 /* SwitchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingViewController.swift; sourceTree = "<group>"; };
+		E1A80CB91FD8817200AD5E11 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		E1A80CBB1FD8818800AD5E11 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		E1A80CA41FD880B900AD5E11 /* multiview */ = {
 			isa = PBXGroup;
 			children = (
+				E1A80CBB1FD8818800AD5E11 /* YellowViewController.swift */,
+				E1A80CB91FD8817200AD5E11 /* BlueViewController.swift */,
+				E1A80CB71FD8813800AD5E11 /* SwitchingViewController.swift */,
 				E1A80CA51FD880B900AD5E11 /* AppDelegate.swift */,
-				E1A80CA71FD880B900AD5E11 /* ViewController.swift */,
 				E1A80CA91FD880B900AD5E11 /* Main.storyboard */,
 				E1A80CAC1FD880B900AD5E11 /* Assets.xcassets */,
 				E1A80CAE1FD880B900AD5E11 /* LaunchScreen.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1A80CA81FD880B900AD5E11 /* ViewController.swift in Sources */,
+				E1A80CBC1FD8818800AD5E11 /* YellowViewController.swift in Sources */,
 				E1A80CA61FD880B900AD5E11 /* AppDelegate.swift in Sources */,
+				E1A80CBA1FD8817200AD5E11 /* BlueViewController.swift in Sources */,
+				E1A80CB81FD8813800AD5E11 /* SwitchingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
